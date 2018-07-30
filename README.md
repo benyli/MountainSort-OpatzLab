@@ -11,7 +11,7 @@ Organized and written by Benjamin Li with mentorship from Sebastian Bitzenhofer 
 At risk of annoyance, I tried to be thorough in the description here. Hope this may be helpful!
 
 ## Folder structure
-*First, please make the empty folders "input" and "output" in ./_MountainSort_OpatzLab to hold the mda input and output files (automatically generated, see **Preprocessing pipeline** and **Analysis pipeline**)*
+*After cloning, please create the empty folders "input" and "output" in ./_MountainSort_OpatzLab to hold the mda input and output files (automatically generated, see **Preprocessing pipeline** and **Analysis pipeline**)*
 
 The main interface is in ./_MountainSort_OpatzLab. Examples are in ./mountainsort_examples-master and zips from GitHub are in ./zips from GitHub
 
