@@ -28,15 +28,16 @@ If you are behind a firewall or something like that, add-apt-repository -y ppa:m
 Test the installation using the examples provided. The examples folder from MountainSort is included in the MountainSort-OpatzLab folder
 
 ## Sort your own data
-Edit the geom.csv and params.json files as needed for your experiment, see documentation here: https://mountainsort.readthedocs.io/en/latest/first_sort.html \
+Edit the geom.csv and params.json files as needed for your experiment, see documentation here: https://mountainsort.readthedocs.io/en/latest/first_sort.html
+
 Be careful when changing the params.json files because .json files can be finicky with formatting. Currently, we are using a default preprocessing pipeline, mountainsort3.mlp
 
 ## nlx to sorted data
- Paths are specified below in relation to _MountainSort_OpatzLab/code
+**Paths are specified below in relation to _MountainSort_OpatzLab/code**
 
- _MountainSort_OpatzLab has a folder structure that organizes the following analysis pipeline. First run ./mfiles/prepare_raw_data_MountainSort.m and then ./MountainSort.sh, followed by ./MountainView.sh. Do not change the _MountainSort_OpatzLab folder name to more than one word or the sorter may not work (trouble finding sorter files)
+_MountainSort_OpatzLab has a folder structure that organizes the following analysis pipeline. First run ./mfiles/prepare_raw_data_MountainSort.m and then ./MountainSort.sh, followed by ./MountainView.sh. Do not change the _MountainSort_OpatzLab folder name to more than one word or the sorter may not work (trouble finding sorter files)
 
-MountainSort input and output files are in a .mda format(https://mountainsort.readthedocs.io/en/latest/first\_sort.html, https://github.com/flatironinstitute/mountainlab/blob/master/docs/source/mda\_file\_format.rst)
+MountainSort input and output files are in a .mda format (https://mountainsort.readthedocs.io/en/latest/first\_sort.html, https://github.com/flatironinstitute/mountainlab/blob/master/docs/source/mda\_file\_format.rst)
 
 
 ### Preprocessing pipeline
