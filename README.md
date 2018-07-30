@@ -1,5 +1,5 @@
 # Automating MountainSort analysis for Opatz lab
-These are instructions for automating MountainSort analysis for Opatz lab (http://www.opatzlab.com/)
+This is an interface for automating MountainSort analysis for the Opatz developmental neurophysiology lab (http://www.opatzlab.com/)
 
 MountainSort GitHub: https://github.com/flatironinstitute/mountainsort
 
@@ -16,9 +16,9 @@ The main interface is in ./_MountainSort_OpatzLab. Examples are in ./mountainsor
 ## Software
 MountainSort version 1 runs on Ubuntu, MountainSort version 2 runs on any Linux flavor or Mac. GPU support is not necessary but sorting larger files may benefit from more working memory. This summary is for MountainSort v1 (code development now frozen)
 
-Windows Subsystem for Linux (WSL) on Windows 10: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+WSL on Windows 10: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
-VcXsrv X server for GUI support with WSL: https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/
+X server for GUI support with WSL: https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/
 
 ## Installation and test
 Install MountainSort and the supporting MountainLab and co. here: https://mountainsort.readthedocs.io/en/latest/
