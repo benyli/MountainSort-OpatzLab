@@ -6,9 +6,7 @@ MountainSort GitHub: https://github.com/flatironinstitute/mountainsort
 Specifically, it works on Windows Subsystem for Linux (WSL)
 - more details in ./_MountainSort_OpatzLab/resources
 
-Organized and written by Benjamin Li with mentorship from Sebastian Bitzenhofer and Mattia Chini (http://www.opatzlab.com/team-members/) during IPAN 2018 (http://www.eecs.umich.edu/ipan/)
-
-At risk of annoyance, I tried to be thorough in the description here. Hope this may be helpful!
+Organized and written by Benjamin Li with mentorship from Sebastian Bitzenhofer and Mattia Chini (http://www.opatzlab.com/team-members/) during IPAN 2018 (http://www.eecs.umich.edu/ipan/). Hope this may be helpful!
 
 ## Folder structure
 *After cloning, please create the empty folders "input" and "output" in ./_MountainSort_OpatzLab to hold the automatically genearted MountainSort input and output files, see **Preprocessing pipeline** and **Analysis pipeline***
