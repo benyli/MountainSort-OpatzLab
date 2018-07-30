@@ -1,24 +1,30 @@
 # Automating MountainSort analysis for Opatz lab
 These are instructions for automating MountainSort analysis for Opatz lab (http://www.opatzlab.com/)
 
+MountainSort GitHub: https://github.com/flatironinstitute/mountainsort
+
 Specifically, it works on Windows Subsystem for Linux (WSL)
 - more details in ./_MountainSort_OpatzLab/resources
-MountainSort GitHub: https://github.com/flatironinstitute/mountainsort \
-Organized and written by Benjamin Li (benyli@umich.edu) during IPAN 2018 (http://www.eecs.umich.edu/ipan/) \
+
+Organized and written by Benjamin Li (benyli@umich.edu) during IPAN 2018 (http://www.eecs.umich.edu/ipan/)
+
 At risk of annoyance, I tried to be thorough in the description here. Hope this may be helpful!
 
 ## Folder structure
 The main interface is in ./_MountainSort_OpatzLab/resources. Examples are in ./mountainsort_examples-master and zips from GitHub are in ./zips from GitHub
 
 ## Software
-MountainSort version 1 runs on Ubuntu, MountainSort version 2 runs on any Linux flavor or Mac. GPU support is not necessary but sorting larger files may benefit from more working memory \
-This summary is for MountainSort v1 (code development now frozen) \
-Windows Subsystem for Linux (WSL) on Windows 10: https://docs.microsoft.com/en-us/windows/wsl/install-win10 \
+MountainSort version 1 runs on Ubuntu, MountainSort version 2 runs on any Linux flavor or Mac. GPU support is not necessary but sorting larger files may benefit from more working memory. This summary is for MountainSort v1 (code development now frozen)
+
+Windows Subsystem for Linux (WSL) on Windows 10: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
 VcXsrv X server for GUI support with WSL: https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/
 
 ## Installation and test
-Install MountainSort and the supporting MountainLab and co. here: https://mountainsort.readthedocs.io/en/latest/ \
-If you are behind a firewall or something like that, add-apt-repository -y ppa:magland/mountainlab may not work. See https://askubuntu.com/questions/452595/cannot-add-ppa-behind-proxy-ubuntu-14-04 \
+Install MountainSort and the supporting MountainLab and co. here: https://mountainsort.readthedocs.io/en/latest/
+
+If you are behind a firewall or something like that, add-apt-repository -y ppa:magland/mountainlab may not work. See https://askubuntu.com/questions/452595/cannot-add-ppa-behind-proxy-ubuntu-14-04
+
 Test the installation using the examples provided. The examples folder from MountainSort is included in the MountainSort-OpatzLab folder
 
 ## Sort your own data
@@ -26,22 +32,19 @@ Edit the geom.csv and params.json files as needed for your experiment, see docum
 Be careful when changing the params.json files because .json files can be finicky with formatting. Currently, we are using a default preprocessing pipeline, mountainsort3.mlp
 
 ## nlx to sorted data
-**Paths are specified below in relation to _MountainSort_OpatzLab/code**
+ Paths are specified below in relation to _MountainSort_OpatzLab/code
 
-_MountainSort_OpatzLab has a folder structure that organizes the following analysis pipeline. First run ./mfiles/prepare_raw_data_MountainSort.m and then ./MountainSort.sh, followed by ./MountainView.sh \
-Do not change the _MountainSort_OpatzLab folder name to more than one word or the sorter may not work (trouble finding sorter files)
+ _MountainSort_OpatzLab has a folder structure that organizes the following analysis pipeline. First run ./mfiles/prepare_raw_data_MountainSort.m and then ./MountainSort.sh, followed by ./MountainView.sh. Do not change the _MountainSort_OpatzLab folder name to more than one word or the sorter may not work (trouble finding sorter files)
 
-MountainSort input and output files are in a .mda format (https://mountainsort.readthedocs.io/en/latest/first\_sort.html, https://github.com/flatironinstitute/mountainlab/blob/master/docs/source/mda\_file\_format.rst)
+MountainSort input and output files are in a .mda format(https://mountainsort.readthedocs.io/en/latest/first\_sort.html, https://github.com/flatironinstitute/mountainlab/blob/master/docs/source/mda\_file\_format.rst)
+
 
 ### Preprocessing pipeline
 ./mfiles/prepare_raw_data_MountainSort.m will take raw nlx data and save it in mda format in ./input. It will call ./mfiles/nlx_to_mda.m, where you can change the number of channels and recording period to sort
+
 Be sure to update geom.csv as you update the channels
 
 ### Analysis pipeline
-./mfiles/prepare_raw_data_MountainSort.m will take raw nlx data and save it in mda format in ./input. It will call ./mfiles/nlx_to_mda.m, where you can change the number of channels and recording period to sort
-
-Be sure to update geom.csv as you update the channels
-
 - prepare_raw_data_MountainSort.m converts nlx data to mda format
 - ./MountainSort.sh will sort input files in ./input and visualize the last experiment sorted when it finishes
 - ./MountainView.sh will use MountainView to visualize output files in ./output
