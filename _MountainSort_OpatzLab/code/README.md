@@ -1,8 +1,11 @@
 # Automating MountainSort analysis for Opatz lab
-These are instructions for automating MountainSort analysis for Opatz lab (http://www.opatzlab.com/). Specifically, it works on Windows Subsystem for Linux
-MountainSort GitHub: https://github.com/flatironinstitute/mountainsort
-Organized and written by Benjamin Li (benyli@umich.edu) during IPAN 2018 (http://www.eecs.umich.edu/ipan/)
-At risk of annoyance, I tried to be thorough in the description here. More details for running MountainSort on WSL are in ./\_MountainSort\_OpatzLab/resources. Hope this may be helpful!
+These are instructions for automating MountainSort analysis for Opatz lab (http://www.opatzlab.com/)\
+Specifically, it works on Windows Subsystem for Linux (WSL)\
+MountainSort GitHub: https://github.com/flatironinstitute/mountainsort\
+Organized and written by Benjamin Li (benyli@umich.edu) during IPAN 2018 (http://www.eecs.umich.edu/ipan/)\
+At risk of annoyance, I tried to be thorough in the description here\
+More details for running MountainSort on WSL are in ./_MountainSort_OpatzLab/resources.\
+Hope this may be helpful!\
 
 ## Folder structure
 The main interface is in ./\_MountainSort\_OpatzLab/resources. Examples are in ./mountainsort_examples-master and zips from GitHub are in ./zips\ from\ GitHub
