@@ -3,8 +3,7 @@ This is an interface for automating MountainSort analysis for the Opatz developm
 
 MountainSort GitHub: https://github.com/flatironinstitute/mountainsort
 
-Specifically, it works on Windows Subsystem for Linux (WSL)
-- more details in ./_MountainSort_OpatzLab/resources
+Specifically, it works on Windows Subsystem for Linux (WSL) (more details in ./_MountainSort_OpatzLab/resources)
 
 Organized and written by Benjamin Li with mentorship from Sebastian Bitzenhofer and Mattia Chini (http://www.opatzlab.com/team-members/) during IPAN 2018 (http://www.eecs.umich.edu/ipan/). Hope this may be helpful!
 
@@ -21,6 +20,12 @@ WSL on Windows 10: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 X server for GUI support with WSL: https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/
 
 ## Installation and test
+### Downloading this repository
+'''shell
+git clone https://github.com/benyli/MountainSort-OpatzLab.git
+```
+or download zip with top left green button
+
 Install MountainSort and the supporting MountainLab and co. here: https://mountainsort.readthedocs.io/en/latest/
 
 If you are behind a firewall or something like that, add-apt-repository -y ppa:magland/mountainlab may not work. See https://askubuntu.com/questions/452595/cannot-add-ppa-behind-proxy-ubuntu-14-04
