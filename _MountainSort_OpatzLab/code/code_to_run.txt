@@ -1,0 +1,14 @@
+code to run
+
+1.) in Matlab
+- prepare_raw_data_MountainSort.m
+
+2.) in Ubuntu
+- sudo mount -t drvfs Q: /mnt/q
+- type password
+- goMS
+- ./MountainSort.sh
+- ./MountainView.sh (optional)
+
+3.) in Matlab
+- analyze_MS_output.m

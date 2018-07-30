@@ -1,0 +1,109 @@
+mountainlab (0.5.10) xenial; urgency=medium
+
+  * -h option for mp-spec
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Thu, 08 Mar 2018 17:59:47 -0500
+
+mountainlab (0.5.9) xenial; urgency=medium
+
+  * fix console output of mp-spec
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Fri, 09 Feb 2018 08:27:46 -0500
+
+mountainlab (0.5.8) xenial; urgency=medium
+
+  * fix path of mpdock
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Wed, 31 Jan 2018 21:48:07 -0500
+
+mountainlab (0.5.7) xenial; urgency=medium
+
+  * implement mpdock and cleanup
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Wed, 31 Jan 2018 21:02:25 -0500
+
+mountainlab (0.5.6) xenial; urgency=medium
+
+  * change toBool to toVariant().toBool for QJsonObject
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Thu, 25 Jan 2018 13:56:52 -0500
+
+mountainlab (0.5.5) xenial; urgency=medium
+
+  * package_url option
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Thu, 25 Jan 2018 08:07:44 -0500
+
+mountainlab (0.5.4) xenial; urgency=medium
+
+  * improved mldock
+  * remove rbdownload
+  * force_run in opts for processor
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Sat, 13 Jan 2018 14:36:47 -0500
+
+mountainlab (0.5.3) xenial; urgency=medium
+
+  * remove debug lines
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Thu, 21 Dec 2017 15:35:23 -0500
+
+mountainlab (0.5.2-beta7) xenial; urgency=medium
+
+  * do not require = symbol in CLParams
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Tue, 12 Dec 2017 18:04:18 -0500
+
+mountainlab (0.5.2-beta6) xenial; urgency=medium
+
+  * Implement mp-requirements
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Tue, 05 Dec 2017 09:13:05 -0500
+
+mountainlab (0.5.2-beta5) xenial; urgency=medium
+
+  * Fix rbdownload package
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Sat, 02 Dec 2017 06:56:54 -0500
+
+mountainlab (0.5.2-beta4) xenial; urgency=medium
+
+  * fix debian install paths for rbdownload
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Fri, 01 Dec 2017 11:56:57 -0500
+
+mountainlab (0.5.2-beta3ubuntu1) xenial; urgency=medium
+
+  * Various improvements including adding rbdownload
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Fri, 01 Dec 2017 10:30:16 -0500
+
+mountainlab (0.5.2-beta3) xenial; urgency=medium
+
+  * look for processing packages in ~/.mountainlab/packages
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Tue, 28 Nov 2017 11:55:34 -0500
+
+mountainlab (0.5.2-beta2) xenial; urgency=medium
+
+  * Prelim build
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Tue, 21 Nov 2017 04:52:19 -0500
+
+mountainlab (0.5.2-beta1) xenial; urgency=medium
+
+  * Prelim build
+
+ -- Jeremy Magland <jmagland@simonsfoundation.org>  Mon, 20 Nov 2017 11:02:32 -0500
+
+mountainlab (0.5.2-alpha1ubuntu1) xenial; urgency=medium
+
+  * Update
+
+ -- Witold Wysota <wysota@wysota.org>  Fri, 17 Nov 2017 17:39:47 +0100
+
+mountainlab (0.5.2-alpha1) xenial; urgency=medium
+
+  * Initial Release.
+
+ -- Witold Wysota <wysota@wysota.org>  Tue, 14 Nov 2017 20:20:51 +0100
