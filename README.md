@@ -26,6 +26,7 @@ git clone https://github.com/benyli/MountainSort-OpatzLab.git
 ```
 or download zip with top left green button
 
+### Installing MountainSort
 Install MountainSort and the supporting MountainLab and co. here: https://mountainsort.readthedocs.io/en/latest/
 
 If you are behind a firewall or something like that, add-apt-repository -y ppa:magland/mountainlab may not work. See https://askubuntu.com/questions/452595/cannot-add-ppa-behind-proxy-ubuntu-14-04
