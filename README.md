@@ -76,20 +76,20 @@ mlp-run ./pipelines/mountainsort3.mlp sort --raw=./input/YOUR_FILENAME_HERE.mda 
 ```
 
 ### View results
-```bash
+```shell
 mountainview --raw=./input/raw2.mda --firings=./output/firings2.mda --geom=./params/geom.csv --samplerate=32000
 ```
 
 ### Run sorting with curation
-```bash
+```shell
 mlp-run ./pipelines/mountainsort3.mlp sort --raw=./input/YOUR_FILENAME_HERE.mda --geom=./params/geom.csv --firings_out=./output/YOUR_FILENAME_HERE.with_curation.mda --_params=./params/params.json --curate=true --cluster_metrics_out=./output/cluster_metrics.YOUR_FILENAME_HERE.json
 ```
 
 ### View results with and without curation
-```bash
+```shell
 mountainview --raw=./input/YOUR_FILENAME_HERE.mda --firings=./output/YOUR_FILENAME_HERE.no_curation.mda --geom=./params/geom.csv --samplerate=32000 --cluster_metrics=./output/cluster_metrics.YOUR_FILENAME_HERE.json
 ```
 
-```bash
+```shell
 mountainview --raw=./input/YOUR_FILENAME_HERE.mda --firings=./output/YOUR_FILENAME_HERE.with_curation.mda --geom=./params/geom.csv --samplerate=32000 --cluster_metrics=./output/cluster_metrics.YOUR_FILENAME_HERE.json
 ```
