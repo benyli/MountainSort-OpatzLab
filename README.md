@@ -24,7 +24,7 @@ X server for GUI support with WSL: https://seanthegeek.net/234/graphical-linux-a
 ```shell
 git clone https://github.com/benyli/MountainSort-OpatzLab.git
 ```
-or download zip with top left green button
+or download zip with top right green button
 
 ### Installing MountainSort
 Install MountainSort and the supporting MountainLab and co. here: https://mountainsort.readthedocs.io/en/latest/
