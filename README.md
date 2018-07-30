@@ -21,7 +21,7 @@ X server for GUI support with WSL: https://seanthegeek.net/234/graphical-linux-a
 
 ## Installation and test
 ### Downloading this repository
-'''shell
+```shell
 git clone https://github.com/benyli/MountainSort-OpatzLab.git
 ```
 or download zip with top left green button
