@@ -1,3 +1,5 @@
+*After cloning, please create the empty folders "input" and "output" in ./_MountainSort_OpatzLab to hold the automatically genearted MountainSort input and output files, see **Preprocessing pipeline** and **Analysis pipeline** below*
+
 # Automating MountainSort analysis for Opatz lab
 This is an interface for automating MountainSort analysis for the Opatz developmental neurophysiology lab (http://www.opatzlab.com/)
 
@@ -8,7 +10,7 @@ Specifically, it works on Windows Subsystem for Linux (WSL) (more details in ./_
 Organized and written by Benjamin Li with mentorship from Sebastian Bitzenhofer and Mattia Chini (http://www.opatzlab.com/team-members/) during IPAN 2018 (http://www.eecs.umich.edu/ipan/). Hope this may be helpful!
 
 ## Folder structure
-*After cloning, please create the empty folders "input" and "output" in ./_MountainSort_OpatzLab to hold the automatically genearted MountainSort input and output files, see **Preprocessing pipeline** and **Analysis pipeline***
+*After cloning, please create the empty folders "input" and "output" in ./_MountainSort_OpatzLab to hold the automatically genearted MountainSort input and output files, see **Preprocessing pipeline** and **Analysis pipeline** below*
 
 The main interface is in ./_MountainSort_OpatzLab. Examples are in ./mountainsort_examples-master and zips from GitHub are in ./zips from GitHub
 
